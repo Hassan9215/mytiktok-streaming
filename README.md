@@ -129,3 +129,4 @@ is "not possible" because S3 requires the file-size up-front.
 - [ ] http://stackoverflow.com/questions/25156716/how-to-apply-async-on-for-loop-of-range
 - [ ] http://stackoverflow.com/questions/17309559/stream-uploading-file-to-s3-on-node-js-using-formidable-and-knox-or-aws-sdk
 (requires using the HTML5 File API to get the File Size/Mime client-side...)
+# Test CI/CD
