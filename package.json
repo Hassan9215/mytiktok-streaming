@@ -1,0 +1,13 @@
+{
+  "name": "mytiktok-streaming",
+  "version": "1.0.0",
+  "description": "Stream video to S3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1481.0",
+    "dotenv": "^17.2.1"
+  }
+}

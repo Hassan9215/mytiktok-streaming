@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  stream:
+    build: .
+    env_file: .env
+    volumes:
+      - ./surfing.mp4:/app/surfing.mp4
+    command: ["node", "index.js", "surfing.mp4"]
+
+
